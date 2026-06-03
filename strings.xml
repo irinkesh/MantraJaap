@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Mantra Jaap</string>
+
+    <!-- Mantra Names Hindi -->
+    <string name="mantra_shiva_hi">ॐ नमः शिवाय</string>
+    <string name="mantra_gayatri_hi">गायत्री मंत्र</string>
+    <string name="mantra_hanuman_hi">हनुमान चालीसा</string>
+    <string name="mantra_maha_mrityunjaya_hi">महामृत्युंजय मंत्र</string>
+    <string name="mantra_hare_krishna_hi">हरे कृष्ण महामंत्र</string>
+    <string name="mantra_ram_hi">श्री राम जय राम</string>
+    <string name="mantra_durga_hi">ॐ दुं दुर्गायै नमः</string>
+    <string name="mantra_ganesh_hi">ॐ गं गणपतये नमः</string>
+    <string name="mantra_so_ham_hi">सो ऽहम्</string>
+    <string name="mantra_om_hi">ॐ</string>
+
+    <!-- Mantra Names English -->
+    <string name="mantra_shiva_en">Om Namah Shivaya</string>
+    <string name="mantra_gayatri_en">Gayatri Mantra</string>
+    <string name="mantra_hanuman_en">Hanuman Chalisa</string>
+    <string name="mantra_maha_mrityunjaya_en">Maha Mrityunjaya</string>
+    <string name="mantra_hare_krishna_en">Hare Krishna Mahamantra</string>
+    <string name="mantra_ram_en">Shri Ram Jai Ram</string>
+    <string name="mantra_durga_en">Om Dum Durgayai Namah</string>
+    <string name="mantra_ganesh_en">Om Gam Ganapataye Namah</string>
+    <string name="mantra_so_ham_en">So Hum</string>
+    <string name="mantra_om_en">Om</string>
+
+    <!-- UI -->
+    <string name="btn_start_jaap_hi">जाप शुरू करें</string>
+    <string name="btn_start_jaap_en">Begin Jaap</string>
+    <string name="btn_history_hi">इतिहास</string>
+    <string name="btn_history_en">History</string>
+    <string name="btn_reset_hi">रीसेट</string>
+    <string name="btn_reset_en">Reset</string>
+    <string name="btn_jaap_hi">🙏 जाप करें</string>
+    <string name="btn_jaap_en">🙏 JAP KARO</string>
+    <string name="label_mala_hi">माला</string>
+    <string name="label_mala_en">Mala</string>
+    <string name="label_total_hi">कुल जाप</string>
+    <string name="label_total_en">Total Jaap</string>
+    <string name="label_this_mala_hi">इस माला में</string>
+    <string name="label_this_mala_en">This Mala</string>
+
+    <!-- History -->
+    <string name="history_title_hi">इतिहास</string>
+    <string name="history_title_en">History</string>
+    <string name="no_history_hi">कोई सत्र सहेजा नहीं गया।\nजाप शुरू करें!</string>
+    <string name="no_history_en">No sessions saved yet.\nBegin your Jaap!</string>
+    <string name="clear_history_hi">सब मिटाएं</string>
+    <string name="clear_history_en">Clear All</string>
+    <string name="confirm_clear_hi">क्या आप सारा इतिहास मिटाना चाहते हैं?</string>
+    <string name="confirm_clear_en">Delete all history?</string>
+    <string name="yes_hi">हाँ</string>
+    <string name="yes_en">Yes</string>
+    <string name="no_hi">नहीं</string>
+    <string name="no_en">No</string>
+
+    <!-- Themes -->
+    <string name="theme_saffron">🌅 Saffron</string>
+    <string name="theme_dark">🌌 Cosmic</string>
+    <string name="theme_white">🪷 Lotus</string>
+
+    <!-- Levels -->
+    <string name="level_shishya_hi">शिष्य</string>
+    <string name="level_sadhak_hi">साधक</string>
+    <string name="level_siddha_hi">सिद्ध</string>
+    <string name="level_brahmanishtha_hi">ब्रह्मनिष्ठ</string>
+    <string name="level_shishya_en">Shishya</string>
+    <string name="level_sadhak_en">Sadhak</string>
+    <string name="level_siddha_en">Siddha</string>
+    <string name="level_brahmanishtha_en">Brahmanishtha</string>
+
+    <!-- Fallbacks -->
+    <string name="app_title">मंत्र जाप</string>
+    <string name="select_mantra_hi">मंत्र चुनें</string>
+    <string name="select_mantra_en">Select Mantra</string>
+</resources>

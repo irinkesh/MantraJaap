@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Cosmic background gradient layer -->
+    <View
+        android:id="@+id/bgGradient"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_gradient_saffron"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TOP BAR: History (top right) + Lang toggle (top left) -->
+    <ImageButton
+        android:id="@+id/btnLang"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_circle_outline"
+        android:src="@drawable/ic_lang"
+        android:contentDescription="Toggle Language"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_circle_outline"
+        android:src="@drawable/ic_history"
+        android:contentDescription="History"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- App title -->
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="मंत्र जाप"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHistory" />
+
+    <!-- Mantra dropdown spinner -->
+    <Spinner
+        android:id="@+id/spinnerMantra"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_spinner"
+        android:padding="4dp"
+        android:popupBackground="@drawable/bg_popup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppTitle" />
+
+    <!-- Mala progress ring (center) -->
+    <com.mantrajaap.app.ui.MalaProgressView
+        android:id="@+id/malaProgressView"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerMantra" />
+
+    <!-- Level badge below ring -->
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="4dp"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_badge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/malaProgressView" />
+
+    <!-- Big START button -->
+    <Button
+        android:id="@+id/btnStartJaap"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        android:letterSpacing="0.05"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_start_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLevel" />
+
+    <!-- Theme toggle (bottom left, small) -->
+    <Button
+        android:id="@+id/btnTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:paddingHorizontal="12dp"
+        android:textSize="11sp"
+        android:background="@drawable/btn_circle_outline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

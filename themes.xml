@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base -->
+    <style name="Base.Theme.MantraJaap" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/saffron</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:windowBackground">@color/saffron_bg</item>
+    </style>
+
+    <!-- Saffron (default) -->
+    <style name="Theme.MantraJaap" parent="Base.Theme.MantraJaap" />
+    <style name="Theme.MantraJaap.Saffron" parent="Base.Theme.MantraJaap">
+        <item name="colorPrimary">@color/saffron</item>
+        <item name="android:windowBackground">@color/saffron_bg</item>
+    </style>
+
+    <!-- Dark Cosmic -->
+    <style name="Theme.MantraJaap.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_accent</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+    </style>
+
+    <!-- White Lotus -->
+    <style name="Theme.MantraJaap.White" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/white_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/white_accent</item>
+        <item name="android:windowBackground">@color/white_bg</item>
+    </style>
+
+</resources>

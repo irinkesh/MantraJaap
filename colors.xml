@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Saffron theme -->
+    <color name="saffron">#FF6F00</color>
+    <color name="saffron_light">#FFA040</color>
+    <color name="saffron_dark">#C43E00</color>
+    <color name="saffron_bg">#FFF3E0</color>
+    <color name="saffron_card">#FFF8F0</color>
+    <color name="saffron_text">#3E1A00</color>
+    <color name="saffron_text_medium">#7A4200</color>
+
+    <!-- Dark (Cosmic Night) theme -->
+    <color name="dark_bg">#0A0A1A</color>
+    <color name="dark_surface">#12122A</color>
+    <color name="dark_card">#1C1C3A</color>
+    <color name="dark_primary">#9C6FFF</color>
+    <color name="dark_accent">#FFD700</color>
+    <color name="dark_text">#E8E0FF</color>
+    <color name="dark_text_medium">#9D8FCC</color>
+
+    <!-- White (Lotus) theme -->
+    <color name="white_bg">#F5F5F5</color>
+    <color name="white_surface">#FFFFFF</color>
+    <color name="white_card">#FFFFFF</color>
+    <color name="white_primary">#880E4F</color>
+    <color name="white_accent">#AD1457</color>
+    <color name="white_text">#1A1A1A</color>
+    <color name="white_text_medium">#555555</color>
+
+    <!-- Common -->
+    <color name="gold">#FFD700</color>
+    <color name="progress_track">#30FFFFFF</color>
+</resources>
